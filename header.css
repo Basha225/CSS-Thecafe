@@ -1,0 +1,31 @@
+.header{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    width: 100%;    /* width is 100% because of fied position it reduces the width */
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    justify-content: space-around;
+}
+.item{
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s ease;
+    
+}
+
+.item:hover{
+    background-color: #eee;
+    
+
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    display: block;  /*to convert anchor tag and used to occupy the full width of nav */
+}
+.item:hover a{
+    color: #000;
+}
